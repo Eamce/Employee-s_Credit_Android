@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/bluebanner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight=".8"
+        android:background="@color/thegreen"
+        android:visibility="visible"></RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".2">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5">
+
+                        <Button
+                            android:id="@+id/btnagc1"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="1"
+                            android:paddingTop="100dp"
+                            android:text="AGC1"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtagc1"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="13dp"
+                            android:elevation="100dp"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textColor="@color/thegreen"
+                            android:textSize="70sp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5">
+
+                        <Button
+                            android:id="@+id/btnagc2"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="1"
+                            android:paddingTop="100dp"
+                            android:text="AGC2"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtagc2"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="13dp"
+                            android:elevation="100dp"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textColor="@color/thegreen"
+                            android:textSize="70sp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5">
+
+                        <Button
+                            android:id="@+id/btnagc3"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="1"
+                            android:paddingTop="100dp"
+                            android:text="AGC3"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtagc3"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="13dp"
+                            android:elevation="100dp"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textColor="@color/thegreen"
+                            android:textSize="70sp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5">
+
+                        <Button
+                            android:id="@+id/btnagc4"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="1"
+                            android:paddingTop="100dp"
+                            android:text="AGC4"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtagc4"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="13dp"
+                            android:elevation="100dp"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textColor="@color/thegreen"
+                            android:textSize="70sp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5">
+
+                        <Button
+                            android:id="@+id/btnasc1"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="1"
+                            android:paddingTop="100dp"
+                            android:text="ASC1"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtasc1"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="13dp"
+                            android:elevation="100dp"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textColor="@color/thegreen"
+                            android:textSize="70sp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5">
+
+                        <Button
+                            android:id="@+id/btnasc2"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="1"
+                            android:paddingTop="100dp"
+                            android:text="ASC2"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtasc2"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="13dp"
+                            android:elevation="100dp"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textColor="@color/thegreen"
+                            android:textSize="70sp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5">
+
+                        <Button
+                            android:id="@+id/btnasc3"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="1"
+                            android:paddingTop="100dp"
+                            android:text="ASC3"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtasc3"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="13dp"
+                            android:elevation="100dp"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textColor="@color/thegreen"
+                            android:textSize="70sp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5">
+
+                        <Button
+                            android:id="@+id/btnasc4"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="1"
+                            android:paddingTop="100dp"
+                            android:text="ASC4"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtasc4"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="13dp"
+                            android:elevation="100dp"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textColor="@color/thegreen"
+                            android:textSize="70sp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5">
+
+                        <Button
+                            android:id="@+id/btnmfi"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="1"
+                            android:paddingTop="100dp"
+                            android:text="MFI 1"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtmfi"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="13dp"
+                            android:elevation="100dp"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textColor="@color/thegreen"
+                            android:textSize="70sp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5">
+
+                        <Button
+                            android:id="@+id/btnmfi2"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="1"
+                            android:paddingTop="100dp"
+                            android:text="MFI 2"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtmfi2"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="13dp"
+                            android:elevation="100dp"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textColor="@color/thegreen"
+                            android:textSize="70sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5">
+
+                        <Button
+                            android:id="@+id/btnmfi3"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="1"
+                            android:paddingTop="100dp"
+                            android:text="MFI 3"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtmfi3"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="13dp"
+                            android:elevation="100dp"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textColor="@color/thegreen"
+                            android:textSize="70sp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5">
+
+                        <Button
+                            android:id="@+id/btnmfi4"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="1"
+                            android:paddingTop="100dp"
+                            android:text="MFI 4"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtmfi4"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="13dp"
+                            android:elevation="100dp"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textColor="@color/thegreen"
+                            android:textSize="70sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5">
+
+                        <Button
+                            android:id="@+id/btnmfi5"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="1"
+                            android:paddingTop="100dp"
+                            android:text="MFI 5"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtmfi5"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="13dp"
+                            android:elevation="100dp"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textColor="@color/thegreen"
+                            android:textSize="70sp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5">
+
+                        <Button
+                            android:id="@+id/btnmfi6"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="1"
+                            android:paddingTop="100dp"
+                            android:text="MFI 6"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtmfi6"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="13dp"
+                            android:elevation="100dp"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textColor="@color/thegreen"
+                            android:textSize="70sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/forspecial"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5">
+
+                        <Button
+                            android:id="@+id/btnothers1"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="1"
+                            android:paddingTop="100dp"
+                            android:text="Others1"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtldi"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="13dp"
+                            android:elevation="100dp"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textColor="@color/thegreen"
+                            android:textSize="70sp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5">
+
+                        <Button
+                            android:id="@+id/btnothers2"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="1"
+                            android:paddingTop="100dp"
+                            android:text="Others2"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtothers2"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="13dp"
+                            android:elevation="100dp"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textColor="@color/thegreen"
+                            android:textSize="70sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/forspecial2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5">
+
+                        <Button
+                            android:id="@+id/btnothers3"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="1"
+                            android:paddingTop="100dp"
+                            android:text="Others3"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtldi3"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="13dp"
+                            android:elevation="100dp"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textColor="@color/thegreen"
+                            android:textSize="70sp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5">
+
+                        <Button
+                            android:id="@+id/btnothers4"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="1"
+                            android:paddingTop="100dp"
+                            android:text="Others4"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtothers4"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="13dp"
+                            android:elevation="100dp"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textColor="@color/thegreen"
+                            android:textSize="70sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>

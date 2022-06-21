@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ecandroid.ebs.ec.Home">
+
+    <RelativeLayout
+        android:id="@+id/bluebanner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight=".8"
+        android:background="@color/thegreen"
+        android:visibility="visible">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".2">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5">
+
+                        <Button
+                            android:id="@+id/btndownloaddata"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="1"
+                            android:paddingTop="100dp"
+                            android:text="Download Data"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtviewdownloaddata"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="13dp"
+                            android:elevation="100dp"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textColor="@color/thegreen"
+                            android:textSize="70sp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5">
+
+                        <Button
+                            android:id="@+id/btndownloadeditems"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="1"
+                            android:paddingTop="100dp"
+                            android:text="View Items"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtviewsetupitems"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="13dp"
+                            android:elevation="100dp"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textColor="@color/thegreen"
+                            android:textSize="70sp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5">
+
+                        <Button
+                            android:id="@+id/btnscanemployee"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="1"
+                            android:paddingTop="100dp"
+                            android:text="Start Employee's Credit"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtviewstartscan"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="13dp"
+                            android:elevation="100dp"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textColor="@color/thegreen"
+                            android:textSize="70sp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5">
+
+                        <Button
+                            android:id="@+id/btnappendtotextfile"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="1"
+                            android:paddingTop="100dp"
+                            android:text="Upload Data"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtviewappendtotextfile"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="13dp"
+                            android:elevation="100dp"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textColor="@color/thegreen"
+                            android:textSize="70sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/forspecial"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5"
+                        android:visibility="visible">
+
+                        <Button
+                            android:id="@+id/btnsetpref"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="1"
+                            android:paddingTop="100dp"
+                            android:text="Settings"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtviewsetpref"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="13dp"
+                            android:elevation="100dp"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textColor="@color/thegreen"
+                            android:textSize="70sp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5"
+                        android:visibility="invisible">
+
+                        <Button
+                            android:id="@+id/btnemployeeleveling"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="1"
+                            android:paddingTop="100dp"
+                            android:text="Employee Leveling"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/txtviewemployeeleveling"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="13dp"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textColor="@color/thegreen"
+                            android:textSize="70sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>

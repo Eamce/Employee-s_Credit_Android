@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ecandroid.ebs.ec">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera2" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ec_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ec_launcher_round"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="Home"
+            android:parentActivityName=".Login">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Login" />
+        </activity>
+        <activity
+            android:name=".Supervisorhome"
+            android:label="Home"
+            android:parentActivityName=".Login">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Login" />
+        </activity>
+        <activity
+            android:name=".Downloaddata"
+            android:label="Download Data"
+            android:parentActivityName=".Home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Home" />
+        </activity>
+        <activity
+            android:name=".ScanEmployee3"
+            android:label="Transactions"
+            android:parentActivityName=".Home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ScanEmployee3" />
+        </activity>
+        <activity
+            android:name=".ScanEmployee3Addnewtransaction"
+            android:label="New Transcation"
+            android:parentActivityName=".ScanEmployee3">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ScanEmployee3Addnewtransaction" />
+        </activity>
+        <activity
+            android:name=".ScanEmployee3Details"
+            android:label="Employee Details"
+            android:parentActivityName=".ScanEmployee3Addnewtransaction">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ScanEmployee3Details" />
+        </activity>
+        <activity
+            android:name=".Appendtotextfiles"
+            android:label="Upload Data"
+            android:parentActivityName=".Home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Appendtotextfiles" />
+        </activity>
+        <activity
+            android:name=".ImagePreview"
+            android:label="Item Image Preview"
+            android:parentActivityName=".Addtocartitems">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ImagePreview" />
+        </activity>
+        <activity android:name=".Viewdownloadeditems"
+            android:label="View Items"
+            android:parentActivityName=".Home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Viewdownloadeditems" />
+        </activity>
+
+        <activity android:name=".Addtocartitems"
+            android:label="List Items"
+            android:parentActivityName=".Viewdownloadeditems">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Addtocartitems" />
+        </activity>
+
+        <activity android:name=".ItemSetUp"
+            android:label="Item Set-up"
+            android:parentActivityName=".ItemSetUp">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItemSetUp" />
+        </activity>
+        <activity android:name=".SetPref"
+            android:label="Set Preferences"
+            android:parentActivityName=".Home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SetPref" />
+        </activity>
+        <activity android:name=".AdminHome"
+            android:label="Admin"
+            android:parentActivityName=".Home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AdminHome" />
+        </activity>
+    </application>
+
+</manifest>
+
+
+
+
+
+
+
+
+
+
